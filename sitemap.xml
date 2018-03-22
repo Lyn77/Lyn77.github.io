@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lyn77.com/about/index.html</loc>
+    
+    <lastmod>2018-03-22T11:46:32.490Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://lyn77.com/categories/index.html</loc>
+    
+    <lastmod>2018-03-22T11:22:13.164Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://lyn77.com/tags/index.html</loc>
+    
+    <lastmod>2018-03-22T11:19:40.656Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://lyn77.com/README.html</loc>
     
     <lastmod>2018-03-09T17:19:49.903Z</lastmod>
