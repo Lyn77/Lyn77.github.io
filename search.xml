@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>article title</title>
-      <link href="/2018/03/06/article-title/"/>
-      <url>/2018/03/06/article-title/</url>
-      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-      
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[article title]]></title>
+    <url>%2F2018%2F03%2F06%2Farticle-title%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
 </search>
