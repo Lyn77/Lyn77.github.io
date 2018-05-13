@@ -415,6 +415,174 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://lyn77.com/2018/05/13/html基础（六）——html表格/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lyn77">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.gratisography.com/photos/355H.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Lyn77's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/13/html基础（六）——html表格/" itemprop="url">html基础（六）——html表格</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-13T20:31:19+08:00">
+                2018-05-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/05/13/html基础（六）——html表格/" class="leancloud_visitors" data-flag-title="html基础（六）——html表格">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  225 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol>
+<li>创建表格<br>&lt;table&gt;<br>&emsp;&lt;tr&gt;<br> &emsp;&emsp;  &lt;th&gt;&lt;/th&gt;<br> &emsp;&emsp;&emsp;&emsp;…<br>&emsp;&lt;/tr&gt;<br>&emsp;&lt;tr&gt;<br> &emsp;&emsp;  &lt;td&gt;单元格内的文字&lt;/td&gt;<br> &emsp;&emsp;&emsp;&emsp;…<br>&emsp;&lt;/tr&gt;<br>&emsp;&emsp;…<br>&lt;/table&gt;<br>注：<br>（1）&lt;tr&gt;&lt;/tr&gt;中只能嵌套&lt;td&gt;&lt;/td&gt;。<br>（2）&lt;td&gt;&lt;/td&gt; 之间像个容器，可以容纳所有元素。如p、div、span。  </li>
+<li>表格属性  <table><br><tr><br> <th>属性名</th><br> <th>含义</th><br> <th>常用属性值</th><br></tr><br><tr><br> <td>border</td><br> <td>设置边框表格</td><br> <td>默认border=”0” 像素值</td><br></tr><br><tr><br> <td>cellspacing</td><br> <td>设置单元格与单元格边框的空白间距</td><br> <td>默认为2 像素值</td><br></tr><br><tr><br> <td>cellpadding</td><br> <td>设置单元格内容与单元格边框的空白间距</td><br> <td>默认为1 像素值</td><br></tr><br><tr><br> <td>width</td><br> <td>宽度</td><br> <td>像素值</td><br></tr><br><tr><br> <td>height</td><br> <td>高度</td><br> <td>像素值</td><br></tr><br><tr><br> <td>align</td><br> <td>表格在网页中的对齐方式</td><br> <td>left、center、right</td><br></tr><br></table>  </li>
+<li>表格结构<br>&lt;table&gt;<br>&emsp;&lt;thead&gt;<br>&emsp;&emsp;&emsp;&lt;tr&gt;<br> &emsp;&emsp;&emsp;&emsp;  &lt;th&gt;&lt;/th&gt;<br> &emsp;&emsp;&emsp;&emsp;…<br>&emsp;&emsp;&emsp;&lt;/tr&gt;<br>&emsp;&lt;/thead&gt;<br>&emsp;&lt;tbody&gt;<br>&emsp;&emsp;&emsp;&lt;tr&gt;<br> &emsp;&emsp;&emsp;&emsp;  &lt;td&gt;单元格内的文字&lt;/td&gt;<br> &emsp;&emsp;&emsp;&emsp;…<br>&emsp;&emsp;&emsp;&lt;/tr&gt;<br>&emsp;&emsp;…<br>&emsp;&lt;/tbody&gt;<br>&lt;/table&gt;    </li>
+<li>表格标题<br>&lt;caption&gt;表格标题&lt;/caption&gt;  </li>
+<li>合并单元格<br>跨行单元格：rowsapn&emsp;&emsp;&emsp;跨列单元格：colspan<br>&lt;td rowspan=”2”&gt;18&lt;/td&gt;<br>&lt;td colspan=”2”&gt;男&lt;/td&gt;</li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://lyn77.com/2018/05/13/html基础（五）——列表标签/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -489,7 +657,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  115 字
+                  152 字
                 </span>
               
 
@@ -531,7 +699,9 @@
             <link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol>
 <li>无序列表ul(undefined list)<br>&lt;ul&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&emsp;…<br>&lt;/ul&gt;<br>注：<br>（1）&lt;ul&gt;&lt;/ul&gt;中只能嵌套&lt;li&gt;&lt;/li&gt;。<br>（2）&lt;li&gt;&lt;/li&gt; 之间像个容器，可以容纳所有元素。  </li>
 <li>有序列表ol(ordered list)<br>&lt;ol&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&emsp;…<br>&lt;/ol&gt;    </li>
-<li>自定义列表dl(defined list)<br>自定义列表用于对术语或名词进行解释和描述。<br>&lt;dl&gt;<br>&emsp;&lt;dt&gt;名词&lt;/dt&gt;<br>&emsp;&lt;dd&gt;名词解释1&lt;/dd&gt;<br>&emsp;&lt;dd&gt;名词解释2&lt;/dd&gt;<br>&emsp;&emsp;…<br>&lt;/dl&gt;<br>说明：网站底部用dl好些。</li>
+<li>自定义列表dl(defined list)<br>自定义列表用于对术语或名词进行解释和描述。<br>&lt;dl&gt;<br>&emsp;&lt;dt&gt;名词&lt;/dt&gt;<br>&emsp;&lt;dd&gt;名词解释1&lt;/dd&gt;<br>&emsp;&lt;dd&gt;名词解释2&lt;/dd&gt;<br>&emsp;&emsp;…<br>&lt;/dl&gt;<br>说明：网站底部用dl好些。<br>参考：  </li>
+<li>html学习网站：<a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">w3school在线教程</a>  </li>
+<li>html学习视频：<a href="https://www.bilibili.com/video/av15241731/index_64.html" target="_blank" rel="noopener">从零开始玩转前端与移动开发（第一阶段HTML5）</a></li>
 </ol>
 
           
@@ -1720,7 +1890,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1742,7 +1912,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">12</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lyn77.com/"/>
-  <updated>2018-05-13T12:29:06.846Z</updated>
+  <updated>2018-05-13T12:52:10.810Z</updated>
   <id>http://lyn77.com/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>html基础（六）——html表格</title>
+    <link href="http://lyn77.com/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E5%85%AD%EF%BC%89%E2%80%94%E2%80%94html%E8%A1%A8%E6%A0%BC/"/>
+    <id>http://lyn77.com/2018/05/13/html基础（六）——html表格/</id>
+    <published>2018-05-13T12:31:19.000Z</published>
+    <updated>2018-05-13T12:52:10.810Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li>创建表格<br>&lt;table&gt;<br>&emsp;&lt;tr&gt;<br> &emsp;&emsp;  &lt;th&gt;&lt;/th&gt;<br> &emsp;&emsp;&emsp;&emsp;…<br>&emsp;&lt;/tr&gt;<br>&emsp;&lt;tr&gt;<br> &emsp;&emsp;  &lt;td&gt;单元格内的文字&lt;/td&gt;<br> &emsp;&emsp;&emsp;&emsp;…<br>&emsp;&lt;/tr&gt;<br>&emsp;&emsp;…<br>&lt;/table&gt;<br>注：<br>（1）&lt;tr&gt;&lt;/tr&gt;中只能嵌套&lt;td&gt;&lt;/td&gt;。<br>（2）&lt;td&gt;&lt;/td&gt; 之间像个容器，可以容纳所有元素。如p、div、span。  </li><li>表格属性  <table><br><tr><br> <th>属性名</th><br> <th>含义</th><br> <th>常用属性值</th><br></tr><br><tr><br> <td>border</td><br> <td>设置边框表格</td><br> <td>默认border=”0” 像素值</td><br></tr><br><tr><br> <td>cellspacing</td><br> <td>设置单元格与单元格边框的空白间距</td><br> <td>默认为2 像素值</td><br></tr><br><tr><br> <td>cellpadding</td><br> <td>设置单元格内容与单元格边框的空白间距</td><br> <td>默认为1 像素值</td><br></tr><br><tr><br> <td>width</td><br> <td>宽度</td><br> <td>像素值</td><br></tr><br><tr><br> <td>height</td><br> <td>高度</td><br> <td>像素值</td><br></tr><br><tr><br> <td>align</td><br> <td>表格在网页中的对齐方式</td><br> <td>left、center、right</td><br></tr><br></table>  </li><li>表格结构<br>&lt;table&gt;<br>&emsp;&lt;thead&gt;<br>&emsp;&emsp;&emsp;&lt;tr&gt;<br> &emsp;&emsp;&emsp;&emsp;  &lt;th&gt;&lt;/th&gt;<br> &emsp;&emsp;&emsp;&emsp;…<br>&emsp;&emsp;&emsp;&lt;/tr&gt;<br>&emsp;&lt;/thead&gt;<br>&emsp;&lt;tbody&gt;<br>&emsp;&emsp;&emsp;&lt;tr&gt;<br> &emsp;&emsp;&emsp;&emsp;  &lt;td&gt;单元格内的文字&lt;/td&gt;<br> &emsp;&emsp;&emsp;&emsp;…<br>&emsp;&emsp;&emsp;&lt;/tr&gt;<br>&emsp;&emsp;…<br>&emsp;&lt;/tbody&gt;<br>&lt;/table&gt;    </li><li>表格标题<br>&lt;caption&gt;表格标题&lt;/caption&gt;  </li><li>合并单元格<br>跨行单元格：rowsapn&emsp;&emsp;&emsp;跨列单元格：colspan<br>&lt;td rowspan=”2”&gt;18&lt;/td&gt;<br>&lt;td colspan=”2”&gt;男&lt;/td&gt;</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="html表格" scheme="http://lyn77.com/tags/html%E8%A1%A8%E6%A0%BC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>html基础（五）——列表标签</title>
     <link href="http://lyn77.com/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89%E2%80%94%E2%80%94%E5%88%97%E8%A1%A8%E6%A0%87%E7%AD%BE/"/>
     <id>http://lyn77.com/2018/05/13/html基础（五）——列表标签/</id>
     <published>2018-05-13T12:15:27.000Z</published>
-    <updated>2018-05-13T12:29:06.846Z</updated>
+    <updated>2018-05-13T12:31:37.336Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li>无序列表ul(undefined list)<br>&lt;ul&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&emsp;…<br>&lt;/ul&gt;<br>注：<br>（1）&lt;ul&gt;&lt;/ul&gt;中只能嵌套&lt;li&gt;&lt;/li&gt;。<br>（2）&lt;li&gt;&lt;/li&gt; 之间像个容器，可以容纳所有元素。  </li><li>有序列表ol(ordered list)<br>&lt;ol&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&emsp;…<br>&lt;/ol&gt;    </li><li>自定义列表dl(defined list)<br>自定义列表用于对术语或名词进行解释和描述。<br>&lt;dl&gt;<br>&emsp;&lt;dt&gt;名词&lt;/dt&gt;<br>&emsp;&lt;dd&gt;名词解释1&lt;/dd&gt;<br>&emsp;&lt;dd&gt;名词解释2&lt;/dd&gt;<br>&emsp;&emsp;…<br>&lt;/dl&gt;<br>说明：网站底部用dl好些。</li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li>无序列表ul(undefined list)<br>&lt;ul&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&emsp;…<br>&lt;/ul&gt;<br>注：<br>（1）&lt;ul&gt;&lt;/ul&gt;中只能嵌套&lt;li&gt;&lt;/li&gt;。<br>（2）&lt;li&gt;&lt;/li&gt; 之间像个容器，可以容纳所有元素。  </li><li>有序列表ol(ordered list)<br>&lt;ol&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&lt;li&gt;  …&lt;/li&gt;<br>&emsp;&emsp;…<br>&lt;/ol&gt;    </li><li>自定义列表dl(defined list)<br>自定义列表用于对术语或名词进行解释和描述。<br>&lt;dl&gt;<br>&emsp;&lt;dt&gt;名词&lt;/dt&gt;<br>&emsp;&lt;dd&gt;名词解释1&lt;/dd&gt;<br>&emsp;&lt;dd&gt;名词解释2&lt;/dd&gt;<br>&emsp;&emsp;…<br>&lt;/dl&gt;<br>说明：网站底部用dl好些。<br>参考：  </li><li>html学习网站：<a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">w3school在线教程</a>  </li><li>html学习视频：<a href="https://www.bilibili.com/video/av15241731/index_64.html" target="_blank" rel="noopener">从零开始玩转前端与移动开发（第一阶段HTML5）</a></li></ol>]]></content>
     
     <summary type="html">
     

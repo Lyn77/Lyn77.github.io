@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[html基础（六）——html表格]]></title>
+    <url>%2F2018%2F05%2F13%2Fhtml%E5%9F%BA%E7%A1%80%EF%BC%88%E5%85%AD%EF%BC%89%E2%80%94%E2%80%94html%E8%A1%A8%E6%A0%BC%2F</url>
+    <content type="text"><![CDATA[创建表格&lt;table&gt;&emsp;&lt;tr&gt; &emsp;&emsp; &lt;th&gt;&lt;/th&gt; &emsp;&emsp;&emsp;&emsp;…&emsp;&lt;/tr&gt;&emsp;&lt;tr&gt; &emsp;&emsp; &lt;td&gt;单元格内的文字&lt;/td&gt; &emsp;&emsp;&emsp;&emsp;…&emsp;&lt;/tr&gt;&emsp;&emsp;…&lt;/table&gt;注：（1）&lt;tr&gt;&lt;/tr&gt;中只能嵌套&lt;td&gt;&lt;/td&gt;。（2）&lt;td&gt;&lt;/td&gt; 之间像个容器，可以容纳所有元素。如p、div、span。 表格属性 属性名 含义 常用属性值 border 设置边框表格 默认border=”0” 像素值 cellspacing 设置单元格与单元格边框的空白间距 默认为2 像素值 cellpadding 设置单元格内容与单元格边框的空白间距 默认为1 像素值 width 宽度 像素值 height 高度 像素值 align 表格在网页中的对齐方式 left、center、right 表格结构&lt;table&gt;&emsp;&lt;thead&gt;&emsp;&emsp;&emsp;&lt;tr&gt; &emsp;&emsp;&emsp;&emsp; &lt;th&gt;&lt;/th&gt; &emsp;&emsp;&emsp;&emsp;…&emsp;&emsp;&emsp;&lt;/tr&gt;&emsp;&lt;/thead&gt;&emsp;&lt;tbody&gt;&emsp;&emsp;&emsp;&lt;tr&gt; &emsp;&emsp;&emsp;&emsp; &lt;td&gt;单元格内的文字&lt;/td&gt; &emsp;&emsp;&emsp;&emsp;…&emsp;&emsp;&emsp;&lt;/tr&gt;&emsp;&emsp;…&emsp;&lt;/tbody&gt;&lt;/table&gt; 表格标题&lt;caption&gt;表格标题&lt;/caption&gt; 合并单元格跨行单元格：rowsapn&emsp;&emsp;&emsp;跨列单元格：colspan&lt;td rowspan=”2”&gt;18&lt;/td&gt;&lt;td colspan=”2”&gt;男&lt;/td&gt;]]></content>
+      <tags>
+        <tag>html表格</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[html基础（五）——列表标签]]></title>
     <url>%2F2018%2F05%2F13%2Fhtml%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89%E2%80%94%E2%80%94%E5%88%97%E8%A1%A8%E6%A0%87%E7%AD%BE%2F</url>
-    <content type="text"><![CDATA[无序列表ul(undefined list)&lt;ul&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&emsp;…&lt;/ul&gt;注：（1）&lt;ul&gt;&lt;/ul&gt;中只能嵌套&lt;li&gt;&lt;/li&gt;。（2）&lt;li&gt;&lt;/li&gt; 之间像个容器，可以容纳所有元素。 有序列表ol(ordered list)&lt;ol&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&emsp;…&lt;/ol&gt; 自定义列表dl(defined list)自定义列表用于对术语或名词进行解释和描述。&lt;dl&gt;&emsp;&lt;dt&gt;名词&lt;/dt&gt;&emsp;&lt;dd&gt;名词解释1&lt;/dd&gt;&emsp;&lt;dd&gt;名词解释2&lt;/dd&gt;&emsp;&emsp;…&lt;/dl&gt;说明：网站底部用dl好些。]]></content>
+    <content type="text"><![CDATA[无序列表ul(undefined list)&lt;ul&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&emsp;…&lt;/ul&gt;注：（1）&lt;ul&gt;&lt;/ul&gt;中只能嵌套&lt;li&gt;&lt;/li&gt;。（2）&lt;li&gt;&lt;/li&gt; 之间像个容器，可以容纳所有元素。 有序列表ol(ordered list)&lt;ol&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&emsp;…&lt;/ol&gt; 自定义列表dl(defined list)自定义列表用于对术语或名词进行解释和描述。&lt;dl&gt;&emsp;&lt;dt&gt;名词&lt;/dt&gt;&emsp;&lt;dd&gt;名词解释1&lt;/dd&gt;&emsp;&lt;dd&gt;名词解释2&lt;/dd&gt;&emsp;&emsp;…&lt;/dl&gt;说明：网站底部用dl好些。参考： html学习网站：w3school在线教程 html学习视频：从零开始玩转前端与移动开发（第一阶段HTML5）]]></content>
       <tags>
         <tag>html列表标签</tag>
       </tags>
