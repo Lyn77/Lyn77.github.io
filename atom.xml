@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lyn77.com/"/>
-  <updated>2018-05-13T09:31:16.509Z</updated>
+  <updated>2018-05-13T09:52:29.117Z</updated>
   <id>http://lyn77.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html基础（二）——html初识</title>
+    <link href="http://lyn77.com/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89%E2%80%94%E2%80%94html%E5%88%9D%E8%AF%86/"/>
+    <id>http://lyn77.com/2018/05/13/html基础（二）——html初识/</id>
+    <published>2018-05-13T09:34:27.000Z</published>
+    <updated>2018-05-13T09:52:29.117Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一、HTML框架格式</p><pre><code> &lt;html&gt;  &lt;head&gt;    &lt;title&gt; &lt;/title&gt;  &lt;/head&gt;  &lt;body&gt;  &lt;/body&gt;&lt;/html&gt;</code></pre><p>二、HTML标签分类  </p><ol><li>双标签&lt;p&gt;&lt;/p&gt;  </li><li>单标签&lt;br /&gt;  </li></ol><p>三、HTML标签关系  </p><ol><li>嵌套关系  </li><li>并列关系  </li></ol><p>&emsp;&ensp;倡议：如果两个标签嵌套关系，子元素最好缩进一个<code>tab</code>键的身位<br>&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;如果两个标签并列关系，最好上下对齐。<br>四、HTML标签的语义化<br>&emsp;&emsp;便于搜索引擎优化</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="html框架" scheme="http://lyn77.com/tags/html%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="html标签" scheme="http://lyn77.com/tags/html%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>html基础（一）——浏览器内核、Web标准</title>
