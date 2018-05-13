@@ -1,49 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[html基础（二）——html初识]]></title>
-    <url>%2F2018%2F05%2F13%2Fhtml%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89%E2%80%94%E2%80%94html%E5%88%9D%E8%AF%86%2F</url>
-    <content type="text"><![CDATA[一、HTML框架格式 &lt;html&gt; &lt;head&gt; &lt;title&gt; &lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;/body&gt; &lt;/html&gt; 二、HTML标签分类 双标签&lt;p&gt;&lt;/p&gt; 单标签&lt;br /&gt; 三、HTML标签关系 嵌套关系 并列关系 &emsp;&ensp;倡议：如果两个标签嵌套关系，子元素最好缩进一个tab键的身位&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;如果两个标签并列关系，最好上下对齐。四、HTML标签的语义化&emsp;&emsp;便于搜索引擎优化]]></content>
-      <tags>
-        <tag>html框架</tag>
-        <tag>html标签</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[html基础（一）——浏览器内核、Web标准]]></title>
-    <url>%2F2018%2F05%2F13%2Fhtml%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%B5%8F%E8%A7%88%E5%99%A8%E5%86%85%E6%A0%B8%E3%80%81Web%E6%A0%87%E5%87%86%2F</url>
-    <content type="text"><![CDATA[一、浏览器内核渲染引擎 Trident(IE内核)&emsp;&emsp;双核浏览器中的一核Window10&emsp;Edge Gecko(firefox)开源 Webkit(safari)苹果公司 Blink(Chrome/Opera) 二、Web标准 结构(structure):用于对网页元素进行整理和分类，主要包括XML和XHTML。 样式(Presentation):用于设置网页元素的板式、颜色、大小等外观样式，主要是CSS。 行为(Behavior):用于对网页模型的定义和交互的编写，主要包括DOM(Document Object Model)和ECMAscript(JavaScript)。 参考： html学习网站：w3school在线教程 html学习视频：从零开始玩转前端与移动开发（第一阶段HTML5）]]></content>
+<search> 
+  
+    
+    <entry>
+      <title>html基础（三）——html标签</title>
+      <link href="/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89%E2%80%94%E2%80%94html%E6%A0%87%E7%AD%BE/"/>
+      <url>/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89%E2%80%94%E2%80%94html%E6%A0%87%E7%AD%BE/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li>标题标签<br>(1)标题标签(head)<br>&emsp;&lt;hn&gt;标题文本&lt;/hn&gt;<br>&emsp;注：h1标签一般用于logo，少用。<br>(2)段落标签(paragraph)<br>&emsp;&lt;p&gt;段落文本&lt;p&gt;<br>&emsp;注：默认情况下，文本在段落中根据浏览器窗口大小自动换行。<br>(3)水平线标签(horizontal)<br>&emsp;&lt;hr /&gt;<br>(4)换行标签(break)<br>&emsp;&lt;br /&gt;<br>(5)div&emsp;span标签（没有语义）<br>&emsp;div是division的缩写，分割、分区。<br>&emsp;span为跨度、跨距、范围。  </li><li>文本格式化标签<br><table><br><tr><br> <th>标签</th><br> <th>含义</th><br> <th>标准</th><br></tr><br><tr><br> <td>&lt;b&gt;&lt;/b&gt;&lt;strong&gt;&lt;/strong&gt;</td><br> <td>粗体</td><br> <td>XHTML推荐使用stong</td><br></tr><br><tr><br> <td>&lt;i&gt;&lt;/i&gt;&lt;em&gt;&lt;/em&gt;</td><br> <td>斜体</td><br> <td>XHTML推荐使用em</td><br></tr><br><tr><br> <td>&lt;s&gt;&lt;/s&gt;&lt;del&gt;&lt;/del&gt;</td><br> <td>加删除线</td><br> <td>XHTML推荐使用del</td><br></tr><br><tr><br> <td>&lt;u&gt;&lt;/u&gt;&lt;ins&gt;&lt;/ins&gt;</td><br> <td>加下划线</td><br> <td>XHTML不赞成使用u</td><br></tr><br></table><br>&emsp;注：1）b、i、s、u只有使用没有强调的意思。<br>&emsp;&emsp;&emsp;2)strong、em、del、ins语义更强烈。<br>&emsp;&emsp;&emsp;3）标签属性&lt;标签名 属性1=“属性值1” 属性2=“属性值2”&gt;&emsp;&emsp;key=”value”  </li><li>图像标签(image)<br>&emsp;&lt;img /&gt;<br>1)&lt;img src=” “ alt=” “ width=”400” border=”10”&gt;<br>2)&lt;img /&gt;标签属性  <table><br><tr><br> <th>属性</th><br> <th>属性值</th><br> <th>描述</th><br></tr><br><tr><br> <td>src</td><br> <td>url</td><br> <td>图像的路径</td><br></tr><br><tr><br> <td>alt</td><br> <td>文本</td><br> <td>图像不能显示时替换的文本</td><br></tr><br><tr><br> <td>title</td><br> <td>文本</td><br> <td>鼠标悬停时现实的内容</td><br></tr><br><tr><br> <td>width</td><br> <td>像素(XHTML不支持百分比)</td><br> <td>设置图像的宽度</td><br></tr><br><tr><br> <td>height</td><br> <td>像素(XHTML不支持百分比)</td><br> <td>设置图像的高度</td><br></tr><br><tr><br> <td>border</td><br> <td>数字</td><br> <td>设置图像边框的宽度</td><br></tr><br></table></li><li>链接标签(anchor)<br>（1）&lt;a&gt;链接&lt;/a&gt;<br>（2）语法格式为:&lt;a href=”跳转目标” target=”目标窗口的弹出方式”&gt;文本或图像&lt;/a&gt;<br>注：<br>1)href用于指定链接目标的地址，Hypertext Refrence的缩写，超文本引用。<br>2)target用于指定页面的打开方式，取值有self（默认）和blank（新窗口）两种。<br>3)如果当时没有确定链接目标，通常用<code>#</code>暂时表示为空链接。<br>4)不仅可以创建文本链接，在网页中各种元素，如图像、表格、音频、视频等都可以添加超链接。<br>（3）锚点定位<br>通过创建锚点链接，用户能够快速定位到目标内容。<br>1)使用&lt;a href=”#id名”&gt;链接文本&lt;/a&gt;创建链接文本。<br>2)使用相应的id名标注跳转目标的位置。<br>（4）base标签<br>&lt;base /&gt;单标签<br>base可以设置整体链接的打开方式。   </li><li>特殊字符标签    <table><br><tr><br> <th>特殊字符</th><br> <th>描述</th><br> <th>字符的代码</th><br></tr><br><tr><br> <td> </td><br> <td>空格</td><br> <td>&amp;nbsp;</td><br></tr><br><tr><br> <td>&lt;</td><br> <td>小于</td><br> <td>&amp;lt;</td><br></tr><br><tr><br> <td>&gt;</td><br> <td>大于</td><br> <td>&amp;gt;</td><br></tr><br><tr><br> <td>&amp;</td><br> <td>与</td><br> <td>&amp;amp;</td><br></tr><br><tr><br> <td>©</td><br> <td>版权符号</td><br> <td>&amp;copy;</td><br></tr><br></table>  </li><li>注释标签<br>&lt;!–注释语句–&gt;</li></ol>]]></content>
+      
+      
+        <tags>
+            
+            <tag> html标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>html基础（二）——html初识</title>
+      <link href="/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89%E2%80%94%E2%80%94html%E5%88%9D%E8%AF%86/"/>
+      <url>/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89%E2%80%94%E2%80%94html%E5%88%9D%E8%AF%86/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一、HTML框架格式</p><pre><code> &lt;html&gt;  &lt;head&gt;    &lt;title&gt; &lt;/title&gt;  &lt;/head&gt;  &lt;body&gt;  &lt;/body&gt;&lt;/html&gt;</code></pre><p>二、HTML标签分类  </p><ol><li>双标签&lt;p&gt;&lt;/p&gt;  </li><li>单标签&lt;br /&gt;  </li></ol><p>三、HTML标签关系  </p><ol><li>嵌套关系  </li><li>并列关系  </li></ol><p>&emsp;&ensp;倡议：如果两个标签嵌套关系，子元素最好缩进一个<code>tab</code>键的身位<br>&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;如果两个标签并列关系，最好上下对齐。<br>四、HTML标签的语义化<br>&emsp;&emsp;便于搜索引擎优化</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> html框架 </tag>
+            
+            <tag> html标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>html基础（一）——浏览器内核、Web标准</title>
+      <link href="/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%B5%8F%E8%A7%88%E5%99%A8%E5%86%85%E6%A0%B8%E3%80%81Web%E6%A0%87%E5%87%86/"/>
+      <url>/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%B5%8F%E8%A7%88%E5%99%A8%E5%86%85%E6%A0%B8%E3%80%81Web%E6%A0%87%E5%87%86/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><h2>一、浏览器内核</h2><br>渲染引擎  <p></p><ol><li>Trident(IE内核)&emsp;&emsp;双核浏览器中的一核<br>Window10&emsp;Edge  </li><li>Gecko(firefox)<br>开源</li><li>Webkit(safari)<br>苹果公司  </li><li>Blink(Chrome/Opera)  </li></ol><p></p><h2>二、Web标准</h2>  <p></p><ol><li>结构(structure):用于对网页元素进行整理和分类，主要包括XML和XHTML。  </li><li>样式(Presentation):用于设置网页元素的板式、颜色、大小等外观样式，主要是CSS。  </li><li>行为(Behavior):用于对网页模型的定义和交互的编写，主要包括DOM(Document Object Model)和ECMAscript(JavaScript)。  </li></ol><p>参考：  </p><ol><li>html学习网站：<a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">w3school在线教程</a>  </li><li>html学习视频：<a href="https://www.bilibili.com/video/av15241731/index_64.html" target="_blank" rel="noopener">从零开始玩转前端与移动开发（第一阶段HTML5）</a></li></ol>]]></content>
+      
       <categories>
-        <category>html基础</category>
+          
+          <category> html基础 </category>
+          
       </categories>
-      <tags>
-        <tag>浏览器内核</tag>
-        <tag>Web标准</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[markdown语法（一）——换行、缩进与引用]]></title>
-    <url>%2F2018%2F05%2F09%2Fmarkdown%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%8D%A2%E8%A1%8C%E3%80%81%E7%BC%A9%E8%BF%9B%E4%B8%8E%E5%BC%95%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[1.markdown视图预览快捷键ctrl+shift+M 2.markdown换行：末尾两个空格+回车 3.markdown缩进:&amp;ensp;为半角空格&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&amp;emsp;为全角空格4.markdown引用：用六个（两组）`包裹多行代码]]></content>
+      
+      
+        <tags>
+            
+            <tag> 浏览器内核 </tag>
+            
+            <tag> Web标准 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>markdown语法（一）——换行、缩进与引用</title>
+      <link href="/2018/05/09/markdown%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%8D%A2%E8%A1%8C%E3%80%81%E7%BC%A9%E8%BF%9B%E4%B8%8E%E5%BC%95%E7%94%A8/"/>
+      <url>/2018/05/09/markdown%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%8D%A2%E8%A1%8C%E3%80%81%E7%BC%A9%E8%BF%9B%E4%B8%8E%E5%BC%95%E7%94%A8/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1.markdown视图预览快捷键ctrl+shift+M  </p><p>2.markdown换行：末尾两个空格+回车  </p><p>3.markdown缩进:<code>&amp;ensp;</code>为半角空格<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<code>&amp;emsp;</code>为全角空格<br>4.markdown引用：用六个（两组）<code>`</code>包裹多行代码</p>]]></content>
+      
       <categories>
-        <category>markdown</category>
+          
+          <category> markdown </category>
+          
       </categories>
-      <tags>
-        <tag>markdown换行</tag>
-        <tag>markdown缩进</tag>
-        <tag>markdown引用</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[我的第一篇博客]]></title>
-    <url>%2F2018%2F03%2F25%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[参考网上的教程用hexo+github搭建博客，花费的时间挺长的，踩过的坑更是数不过来（跪了）。终于，我的博客初步建成了（撒花）！ 欢迎你来呀。]]></content>
+      
+      
+        <tags>
+            
+            <tag> markdown换行 </tag>
+            
+            <tag> markdown缩进 </tag>
+            
+            <tag> markdown引用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>我的第一篇博客</title>
+      <link href="/2018/03/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2018/03/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>参考网上的教程用hexo+github搭建博客，花费的时间挺长的，踩过的坑更是数不过来（跪了）。终于，我的博客初步建成了（撒花）！</strong></p><p><strong>欢迎你来呀。</strong></p>]]></content>
+      
       <categories>
-        <category>hexo</category>
+          
+          <category> hexo </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>github</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
 </search>
