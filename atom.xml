@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lyn77.com/"/>
-  <updated>2018-05-13T11:58:37.463Z</updated>
+  <updated>2018-05-13T12:13:28.269Z</updated>
   <id>http://lyn77.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html基础（四）——路径</title>
+    <link href="http://lyn77.com/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89%E2%80%94%E2%80%94%E8%B7%AF%E5%BE%84/"/>
+    <id>http://lyn77.com/2018/05/13/html基础（四）——路径/</id>
+    <published>2018-05-13T12:00:27.000Z</published>
+    <updated>2018-05-13T12:13:28.269Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>说明：通常新建一个文件夹专门存放图像文件，如果插入图像，需要采用“路径”指定位置。  </p><ol><li>相对路径<br>（1）图像和HTML文件名位于同一文件夹，只需输入图像文件的名称即可。如&lt;img src=”logo.gif”/&gt;。<br>（2）图像文件位于HTML文件的下一级文件夹，这时需要输入文件夹名和文件名。如&lt;img src=”img/img1.gif”/&gt;。<br>（3）图像文件位于HTML文件的上一级文件夹，在文件夹名称前加“../”。如&lt;img src=”../logo.gif”/&gt;。  </li><li>绝对路径<br>（1）点击图片→右键→位置 查询本地地址“c:\web\picture\logo.gif”（这种不用）。<br>（2）在网络中点击图片→右击→复制图片地址。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="路径" scheme="http://lyn77.com/tags/%E8%B7%AF%E5%BE%84/"/>
+    
+  </entry>
   
   <entry>
     <title>html基础（三）——html标签</title>
@@ -58,9 +81,9 @@
     </summary>
     
     
-      <category term="html框架" scheme="http://lyn77.com/tags/html%E6%A1%86%E6%9E%B6/"/>
-    
       <category term="html标签" scheme="http://lyn77.com/tags/html%E6%A0%87%E7%AD%BE/"/>
+    
+      <category term="html框架" scheme="http://lyn77.com/tags/html%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
