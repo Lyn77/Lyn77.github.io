@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lyn77.com/"/>
-  <updated>2018-05-09T06:30:48.846Z</updated>
+  <updated>2018-05-13T09:31:16.509Z</updated>
   <id>http://lyn77.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html基础（一）——浏览器内核、Web标准</title>
+    <link href="http://lyn77.com/2018/05/13/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%B5%8F%E8%A7%88%E5%99%A8%E5%86%85%E6%A0%B8%E3%80%81Web%E6%A0%87%E5%87%86/"/>
+    <id>http://lyn77.com/2018/05/13/html基础（一）——浏览器内核、Web标准/</id>
+    <published>2018-05-13T09:01:30.000Z</published>
+    <updated>2018-05-13T09:31:16.509Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><h2>一、浏览器内核</h2><br>渲染引擎  <p></p><ol><li>Trident(IE内核)&emsp;&emsp;双核浏览器中的一核<br>Window10&emsp;Edge  </li><li>Gecko(firefox)<br>开源</li><li>Webkit(safari)<br>苹果公司  </li><li>Blink(Chrome/Opera)  </li></ol><p></p><h2>二、Web标准</h2>  <p></p><ol><li>结构(structure):用于对网页元素进行整理和分类，主要包括XML和XHTML。  </li><li>样式(Presentation):用于设置网页元素的板式、颜色、大小等外观样式，主要是CSS。  </li><li>行为(Behavior):用于对网页模型的定义和交互的编写，主要包括DOM(Document Object Model)和ECMAscript(JavaScript)。  </li></ol><p>参考：  </p><ol><li>html学习网站：<a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">w3school在线教程</a>  </li><li>html学习视频：<a href="https://www.bilibili.com/video/av15241731/index_64.html" target="_blank" rel="noopener">从零开始玩转前端与移动开发（第一阶段HTML5）</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="html基础" scheme="http://lyn77.com/categories/html%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="浏览器内核" scheme="http://lyn77.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%86%85%E6%A0%B8/"/>
+    
+      <category term="Web标准" scheme="http://lyn77.com/tags/Web%E6%A0%87%E5%87%86/"/>
+    
+  </entry>
   
   <entry>
     <title>markdown语法（一）——换行、缩进与引用</title>
