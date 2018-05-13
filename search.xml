@@ -1,40 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[markdown语法（一）——换行、缩进与引用]]></title>
-    <url>%2F2018%2F05%2F09%2Fmarkdown%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%8D%A2%E8%A1%8C%E3%80%81%E7%BC%A9%E8%BF%9B%E4%B8%8E%E5%BC%95%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[1.markdown视图预览快捷键ctrl+shift+M 2.markdown换行：末尾两个空格+回车 3.markdown缩进:&amp;ensp;为半角空格&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&amp;emsp;为全角空格4.markdown引用：用六个（两组）`包裹多行代码]]></content>
+<search> 
+  
+    
+    <entry>
+      <title>markdown语法（一）——换行、缩进与引用</title>
+      <link href="/2018/05/09/markdown%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%8D%A2%E8%A1%8C%E3%80%81%E7%BC%A9%E8%BF%9B%E4%B8%8E%E5%BC%95%E7%94%A8/"/>
+      <url>/2018/05/09/markdown%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E6%8D%A2%E8%A1%8C%E3%80%81%E7%BC%A9%E8%BF%9B%E4%B8%8E%E5%BC%95%E7%94%A8/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1.markdown视图预览快捷键ctrl+shift+M  </p><p>2.markdown换行：末尾两个空格+回车  </p><p>3.markdown缩进:<code>&amp;ensp;</code>为半角空格<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<code>&amp;emsp;</code>为全角空格<br>4.markdown引用：用六个（两组）<code>`</code>包裹多行代码</p>]]></content>
+      
       <categories>
-        <category>markdown</category>
+          
+          <category> markdown </category>
+          
       </categories>
-      <tags>
-        <tag>markdown换行</tag>
-        <tag>markdown缩进</tag>
-        <tag>markdown引用</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[html基础（一）——html基本框架]]></title>
-    <url>%2F2018%2F05%2F09%2Fhtml%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94html%E5%9F%BA%E6%9C%AC%E6%A1%86%E6%9E%B6%2F</url>
-    <content type="text"><![CDATA[1.html的定义 html即HyperText Markup Language，超文本标记语言。 用于创建网页的标记语言。 2.html的基本框架12345678&lt;html&gt; &lt;head&gt; &lt;title&gt;犄角&lt;/title&gt; &lt;/head&gt; &lt;body&gt; 身体 &lt;/body&gt;&lt;/html&gt; 说明: 1)&lt;title&gt;为开始标签(start tag) &emsp;&lt;/title&gt;为结束标签(end tag) &emsp;犄角为元素内容(element content) 2)&lt;title&gt; &lt;/title&gt;为元素(element) 3)标签成对存在]]></content>
+      
+      
+        <tags>
+            
+            <tag> markdown换行 </tag>
+            
+            <tag> markdown缩进 </tag>
+            
+            <tag> markdown引用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>我的第一篇博客</title>
+      <link href="/2018/03/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2018/03/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>参考网上的教程用hexo+github搭建博客，花费的时间挺长的，踩过的坑更是数不过来（跪了）。终于，我的博客初步建成了（撒花）！</strong></p><p><strong>欢迎你来呀。</strong></p>]]></content>
+      
       <categories>
-        <category>html基础</category>
+          
+          <category> hexo </category>
+          
       </categories>
-      <tags>
-        <tag>html基础</tag>
-        <tag>html基本框架</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[我的第一篇博客]]></title>
-    <url>%2F2018%2F03%2F25%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[参考网上的教程用hexo+github搭建博客，花费的时间挺长的，踩过的坑更是数不过来（跪了）。终于，我的博客初步建成了（撒花）！ 欢迎你来呀。]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>github</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
 </search>

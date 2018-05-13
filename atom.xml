@@ -46,33 +46,6 @@
   </entry>
   
   <entry>
-    <title>html基础（一）——html基本框架</title>
-    <link href="http://lyn77.com/2018/05/09/html%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94html%E5%9F%BA%E6%9C%AC%E6%A1%86%E6%9E%B6/"/>
-    <id>http://lyn77.com/2018/05/09/html基础（一）——html基本框架/</id>
-    <published>2018-05-09T00:48:01.000Z</published>
-    <updated>2018-05-09T06:12:55.352Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1.html的定义</p><blockquote><p>html即HyperText Markup Language，超文本标记语言。<br> 用于创建网页的标记语言。</p></blockquote><p>2.html的基本框架<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;         </span><br><span class="line">    &lt;title&gt;犄角&lt;/title&gt;     </span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    身体</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure></p><p>说明:<br> 1)<code>&lt;title&gt;</code>为开始标签(start tag)<br> &emsp;<code>&lt;/title&gt;</code>为结束标签(end tag)<br> &emsp;<code>犄角</code>为元素内容(element content)<br> 2)<code>&lt;title&gt;</code> <code>&lt;/title&gt;</code>为元素(element)<br> 3)标签成对存在</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="html基础" scheme="http://lyn77.com/categories/html%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="html基础" scheme="http://lyn77.com/tags/html%E5%9F%BA%E7%A1%80/"/>
-    
-      <category term="html基本框架" scheme="http://lyn77.com/tags/html%E5%9F%BA%E6%9C%AC%E6%A1%86%E6%9E%B6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>我的第一篇博客</title>
     <link href="http://lyn77.com/2018/03/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://lyn77.com/2018/03/25/我的第一篇博客/</id>
