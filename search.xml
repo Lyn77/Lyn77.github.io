@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[html基础（五）——列表标签]]></title>
+    <url>%2F2018%2F05%2F13%2Fhtml%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89%E2%80%94%E2%80%94%E5%88%97%E8%A1%A8%E6%A0%87%E7%AD%BE%2F</url>
+    <content type="text"><![CDATA[无序列表ul(undefined list)&lt;ul&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&emsp;…&lt;/ul&gt;注：（1）&lt;ul&gt;&lt;/ul&gt;中只能嵌套&lt;li&gt;&lt;/li&gt;。（2）&lt;li&gt;&lt;/li&gt; 之间像个容器，可以容纳所有元素。 有序列表ol(ordered list)&lt;ol&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&lt;li&gt; …&lt;/li&gt;&emsp;&emsp;…&lt;/ol&gt; 自定义列表dl(defined list)自定义列表用于对术语或名词进行解释和描述。&lt;dl&gt;&emsp;&lt;dt&gt;名词&lt;/dt&gt;&emsp;&lt;dd&gt;名词解释1&lt;/dd&gt;&emsp;&lt;dd&gt;名词解释2&lt;/dd&gt;&emsp;&emsp;…&lt;/dl&gt;说明：网站底部用dl好些。]]></content>
+      <tags>
+        <tag>html列表标签</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[html基础（四）——路径]]></title>
     <url>%2F2018%2F05%2F13%2Fhtml%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89%E2%80%94%E2%80%94%E8%B7%AF%E5%BE%84%2F</url>
-    <content type="text"><![CDATA[说明：通常新建一个文件夹专门存放图像文件，如果插入图像，需要采用“路径”指定位置。 相对路径（1）图像和HTML文件名位于同一文件夹，只需输入图像文件的名称即可。如&lt;img src=”logo.gif”/&gt;。（2）图像文件位于HTML文件的下一级文件夹，这时需要输入文件夹名和文件名。如&lt;img src=”img/img1.gif”/&gt;。（3）图像文件位于HTML文件的上一级文件夹，在文件夹名称前加“../”。如&lt;img src=”../logo.gif”/&gt;。 绝对路径（1）点击图片→右键→位置 查询本地地址“c:\web\picture\logo.gif”（这种不用）。（2）在网络中点击图片→右击→复制图片地址。]]></content>
+    <content type="text"><![CDATA[说明：通常新建一个文件夹专门存放图像文件，如果插入图像，需要采用“路径”指定位置。 相对路径（1）图像和HTML文件名位于同一文件夹，只需输入图像文件的名称即可。如&lt;img src=”logo.gif”/&gt;。（2）图像文件位于HTML文件的下一级文件夹，这时需要输入文件夹名和文件名。如&lt;img src=”img/img1.gif”/&gt;。（3）图像文件位于HTML文件的上一级文件夹，在文件夹名称前加“../”。如&lt;img src=”../logo.gif”/&gt;。 绝对路径（1）点击图片→右键→位置 查询本地地址“c:\web\picture\logo.gif”（这种不用）。（2）在网络中点击图片→右击→复制图片地址。 参考： html学习网站：w3school在线教程 html学习视频：从零开始玩转前端与移动开发（第一阶段HTML5）]]></content>
       <tags>
         <tag>路径</tag>
       </tags>
@@ -11,7 +19,7 @@
   <entry>
     <title><![CDATA[html基础（三）——html标签]]></title>
     <url>%2F2018%2F05%2F13%2Fhtml%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89%E2%80%94%E2%80%94html%E6%A0%87%E7%AD%BE%2F</url>
-    <content type="text"><![CDATA[标题标签(1)标题标签(head)&emsp;&lt;hn&gt;标题文本&lt;/hn&gt;&emsp;注：h1标签一般用于logo，少用。(2)段落标签(paragraph)&emsp;&lt;p&gt;段落文本&lt;p&gt;&emsp;注：默认情况下，文本在段落中根据浏览器窗口大小自动换行。(3)水平线标签(horizontal)&emsp;&lt;hr /&gt;(4)换行标签(break)&emsp;&lt;br /&gt;(5)div&emsp;span标签（没有语义）&emsp;div是division的缩写，分割、分区。&emsp;span为跨度、跨距、范围。 文本格式化标签 标签 含义 标准 &lt;b&gt;&lt;/b&gt;&lt;strong&gt;&lt;/strong&gt; 粗体 XHTML推荐使用stong &lt;i&gt;&lt;/i&gt;&lt;em&gt;&lt;/em&gt; 斜体 XHTML推荐使用em &lt;s&gt;&lt;/s&gt;&lt;del&gt;&lt;/del&gt; 加删除线 XHTML推荐使用del &lt;u&gt;&lt;/u&gt;&lt;ins&gt;&lt;/ins&gt; 加下划线 XHTML不赞成使用u&emsp;注：1）b、i、s、u只有使用没有强调的意思。&emsp;&emsp;&emsp;2)strong、em、del、ins语义更强烈。&emsp;&emsp;&emsp;3）标签属性&lt;标签名 属性1=“属性值1” 属性2=“属性值2”&gt;&emsp;&emsp;key=”value” 图像标签(image)&emsp;&lt;img /&gt;1)&lt;img src=” “ alt=” “ width=”400” border=”10”&gt;2)&lt;img /&gt;标签属性 属性 属性值 描述 src url 图像的路径 alt 文本 图像不能显示时替换的文本 title 文本 鼠标悬停时现实的内容 width 像素(XHTML不支持百分比) 设置图像的宽度 height 像素(XHTML不支持百分比) 设置图像的高度 border 数字 设置图像边框的宽度 链接标签(anchor)（1）&lt;a&gt;链接&lt;/a&gt;（2）语法格式为:&lt;a href=”跳转目标” target=”目标窗口的弹出方式”&gt;文本或图像&lt;/a&gt;注：1)href用于指定链接目标的地址，Hypertext Refrence的缩写，超文本引用。2)target用于指定页面的打开方式，取值有self（默认）和blank（新窗口）两种。3)如果当时没有确定链接目标，通常用#暂时表示为空链接。4)不仅可以创建文本链接，在网页中各种元素，如图像、表格、音频、视频等都可以添加超链接。（3）锚点定位通过创建锚点链接，用户能够快速定位到目标内容。1)使用&lt;a href=”#id名”&gt;链接文本&lt;/a&gt;创建链接文本。2)使用相应的id名标注跳转目标的位置。（4）base标签&lt;base /&gt;单标签base可以设置整体链接的打开方式。 特殊字符标签 特殊字符 描述 字符的代码 空格 &amp;nbsp; &lt; 小于 &amp;lt; &gt; 大于 &amp;gt; &amp; 与 &amp;amp; © 版权符号 &amp;copy; 注释标签&lt;!–注释语句–&gt;]]></content>
+    <content type="text"><![CDATA[标题标签(1)标题标签(head)&emsp;&lt;hn&gt;标题文本&lt;/hn&gt;&emsp;注：h1标签一般用于logo，少用。(2)段落标签(paragraph)&emsp;&lt;p&gt;段落文本&lt;p&gt;&emsp;注：默认情况下，文本在段落中根据浏览器窗口大小自动换行。(3)水平线标签(horizontal)&emsp;&lt;hr /&gt;(4)换行标签(break)&emsp;&lt;br /&gt;(5)div&emsp;span标签（没有语义）&emsp;div是division的缩写，分割、分区。&emsp;span为跨度、跨距、范围。 文本格式化标签 标签 含义 标准 &lt;b&gt;&lt;/b&gt;&lt;strong&gt;&lt;/strong&gt; 粗体 XHTML推荐使用stong &lt;i&gt;&lt;/i&gt;&lt;em&gt;&lt;/em&gt; 斜体 XHTML推荐使用em &lt;s&gt;&lt;/s&gt;&lt;del&gt;&lt;/del&gt; 加删除线 XHTML推荐使用del &lt;u&gt;&lt;/u&gt;&lt;ins&gt;&lt;/ins&gt; 加下划线 XHTML不赞成使用u&emsp;注：1）b、i、s、u只有使用没有强调的意思。&emsp;&emsp;&emsp;2)strong、em、del、ins语义更强烈。&emsp;&emsp;&emsp;3）标签属性&lt;标签名 属性1=“属性值1” 属性2=“属性值2”&gt;&emsp;&emsp;key=”value” 图像标签(image)&emsp;&lt;img /&gt;1)&lt;img src=” “ alt=” “ width=”400” border=”10”&gt;2)&lt;img /&gt;标签属性 属性 属性值 描述 src url 图像的路径 alt 文本 图像不能显示时替换的文本 title 文本 鼠标悬停时现实的内容 width 像素(XHTML不支持百分比) 设置图像的宽度 height 像素(XHTML不支持百分比) 设置图像的高度 border 数字 设置图像边框的宽度 链接标签(anchor)（1）&lt;a&gt;链接&lt;/a&gt;（2）语法格式为:&lt;a href=”跳转目标” target=”目标窗口的弹出方式”&gt;文本或图像&lt;/a&gt;注：1)href用于指定链接目标的地址，Hypertext Refrence的缩写，超文本引用。2)target用于指定页面的打开方式，取值有self（默认）和blank（新窗口）两种。3)如果当时没有确定链接目标，通常用#暂时表示为空链接。4)不仅可以创建文本链接，在网页中各种元素，如图像、表格、音频、视频等都可以添加超链接。（3）锚点定位通过创建锚点链接，用户能够快速定位到目标内容。1)使用&lt;a href=”#id名”&gt;链接文本&lt;/a&gt;创建链接文本。2)使用相应的id名标注跳转目标的位置。（4）base标签&lt;base /&gt;单标签base可以设置整体链接的打开方式。 特殊字符标签 特殊字符 描述 字符的代码 空格 &amp;nbsp; &lt; 小于 &amp;lt; &gt; 大于 &amp;gt; &amp; 与 &amp;amp; © 版权符号 &amp;copy; 注释标签&lt;!–注释语句–&gt; 参考： html学习网站：w3school在线教程 html学习视频：从零开始玩转前端与移动开发（第一阶段HTML5）]]></content>
       <tags>
         <tag>html标签</tag>
       </tags>
@@ -19,10 +27,10 @@
   <entry>
     <title><![CDATA[html基础（二）——html初识]]></title>
     <url>%2F2018%2F05%2F13%2Fhtml%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89%E2%80%94%E2%80%94html%E5%88%9D%E8%AF%86%2F</url>
-    <content type="text"><![CDATA[一、HTML框架格式 &lt;html&gt; &lt;head&gt; &lt;title&gt; &lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;/body&gt; &lt;/html&gt; 二、HTML标签分类 双标签&lt;p&gt;&lt;/p&gt; 单标签&lt;br /&gt; 三、HTML标签关系 嵌套关系 并列关系 &emsp;&ensp;倡议：如果两个标签嵌套关系，子元素最好缩进一个tab键的身位&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;如果两个标签并列关系，最好上下对齐。四、HTML标签的语义化&emsp;&emsp;便于搜索引擎优化]]></content>
+    <content type="text"><![CDATA[一、HTML框架格式 &lt;html&gt; &lt;head&gt; &lt;title&gt; &lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;/body&gt; &lt;/html&gt; 二、HTML标签分类 双标签&lt;p&gt;&lt;/p&gt; 单标签&lt;br /&gt; 三、HTML标签关系 嵌套关系 并列关系 &emsp;&ensp;倡议：如果两个标签嵌套关系，子元素最好缩进一个tab键的身位&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;如果两个标签并列关系，最好上下对齐。四、HTML标签的语义化&emsp;&emsp;便于搜索引擎优化 参考： html学习网站：w3school在线教程 html学习视频：从零开始玩转前端与移动开发（第一阶段HTML5）]]></content>
       <tags>
-        <tag>html标签</tag>
         <tag>html框架</tag>
+        <tag>html标签</tag>
       </tags>
   </entry>
   <entry>
