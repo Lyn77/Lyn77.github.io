@@ -489,7 +489,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  353 字
+                  402 字
                 </span>
               
 
@@ -505,7 +505,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1 分钟
+                  2 分钟
                 </span>
               
             </div>
@@ -532,16 +532,21 @@
 <ol>
 <li>&lt;input /&gt;为单标签，type属性为其最基本属性，还有其他属性。  </li>
 <li>表单属性<table><tr><th>属性</th><th>属性值</th><th>描述</th></tr><tr><td rowspan="9">type</td><td>text</td><td>文本框</td></tr><tr><td>password</td><td>密码框</td></tr><tr><td>radio</td><td>单选框</td></tr><tr><td>checkbox</td><td>复选框</td></tr><tr><td>button</td><td>按钮</td></tr>tr&gt;<td>submit</td><td>提交按钮</td><tr><td>reset</td><td>重置按钮</td><br></tr><tr><td>image</td><td>图像形式的提交按钮</td><br></tr><tr><td>file</td><td>文件域</td><br></tr><tr><td>name</td><td>自定义</td><td>控件名</td></tr><tr><td>value</td><td>自定义</td><td>input控件的默认值</td></tr><tr><td>size</td><td>正整数</td><td>input控件在页面中显示的宽度</td></tr><tr><td>checked</td><td>checked</td><td>默认被选中的项</td></tr><tr><td>maxlength</td><td>正整数</td><td>控件允许输入的最多字符数</td></tr></table>    </li>
-<li><p>例子<br>（1）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;radio&quot; name=&quot;sex checked=&quot;checked&quot; /&gt;女 &lt;input type=&quot;radio&quot; name=&quot;sex /&gt;男   </span><br><span class="line">  &lt;!--单选框如果是一组，通过相同的name来实现--&gt; ```   </span><br><span class="line">（2）</span><br></pre></td></tr></table></figure></p>
-<p><input type="image" src="im.jpg">  <!--图像按钮--> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">（3）</span><br></pre></td></tr></table></figure></p>
-<p><input type="file"><!--上传头像-->  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">4. label标签  </span><br><span class="line">（1）作用：用于绑定一个表单元素，当点击label标签时，被绑定的表单元素会获得输入焦点。  </span><br><span class="line">（2）两种方法  </span><br><span class="line">a.直接包裹</span><br></pre></td></tr></table></figure></p>
-<p><label>输入账号：<input type="text"></label></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">b.for属性规定label与哪个表单元素绑定</span><br></pre></td></tr></table></figure>
-<p><label>输入账号：<input type="text"></label> <br><br><label for="two">输入账号：<input type="text"> <input type="text" id="two"></label><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">5. textarea控件（文本域）  </span><br><span class="line">6. 下拉菜单</span><br></pre></td></tr></table></figure></p>
+<li>例子<br>（1）<code>&lt;input type=&quot;radio&quot; name=&quot;sex checked=&quot;checked&quot; /&gt;女 &lt;input type=&quot;radio&quot; name=&quot;sex /&gt;男&lt;!--单选框如果是一组，通过相同的name来实现--&gt;</code><br>（2）<br><code>&lt;input type=&quot;image&quot; src=&quot;im.jpg&quot;&gt;  &lt;!--图像按钮--&gt;</code><br>（3 <code>&lt;input type=&quot;file&quot; /&gt;&lt;!--上传头像--&gt;</code>   </li>
+<li>label标签<br>（1）作用：用于绑定一个表单元素，当点击label标签时，被绑定的表单元素会获得输入焦点。<br>（2）两种方法<br>a.直接包裹<br><code>&lt;label&gt;输入账号：&lt;input type=&quot;text&quot;&gt;&lt;/label&gt;</code><br>b.for属性规定label与哪个表单元素绑定<br><code>&lt;label&gt;输入账号：&lt;input type=&quot;text&quot;&gt;&lt;/label&gt; &lt;br /&gt;
+&lt;label for=&quot;two&quot;&gt;输入账号：&lt;input type=&quot;text&quot;&gt; &lt;input type=&quot;text&quot; id=&quot;two&quot;&gt;&lt;/label&gt;</code>  </li>
+<li>textarea控件（文本域）  </li>
+<li>下拉菜单  <pre><code class="&lt;select&gt;">  &lt;option selected=&quot;selected&quot;&gt;...&lt;/option&gt;  
+  ...  
+&lt;/select&gt;
+</code></pre>
+<ol>
+<li>表单域<br><code>&lt;form action=&quot;url地址&quot; method=&quot;提交方式&quot; name=&quot;表单名称&quot;&gt;
+各种表单控件
+&lt;/form&gt;</code>  </li>
+</ol>
 </li>
 </ol>
-<p><select><br>       <option selected="selected">…</option><br>       …<br>   </select><br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">7. 表单域</span><br></pre></td></tr></table></figure></p>
-<p><form action="url地址" method="提交方式" name="表单名称"><br>各种表单控件<br></form><br><code>`</code>  </p>
 <p>参考：  </p>
 <ol>
 <li>html学习网站：<a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">w3school在线教程</a>  </li>
